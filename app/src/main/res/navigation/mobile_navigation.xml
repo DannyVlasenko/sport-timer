@@ -7,9 +7,9 @@
 
     <fragment
             android:id="@+id/navigation_home"
-            android:name="com.codeachievements.sporttimer.ui.home.HomeFragment"
+            android:name="com.codeachievements.sporttimer.ui.stopwatch.StopwatchFragment"
             android:label="@string/title_home"
-            tools:layout="@layout/fragment_home"/>
+            tools:layout="@layout/fragment_stopwatch"/>
 
     <fragment
             android:id="@+id/navigation_dashboard"
