@@ -15,11 +15,11 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:textAlignment="center"
-            android:textSize="20sp"
+            android:textSize="60sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"/>
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="8dp"/>
     <Button
             android:text="@string/start_button_text"
             android:layout_width="wrap_content"
@@ -33,4 +33,12 @@
             android:layout_height="wrap_content" android:id="@+id/reset_button"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="32dp"
             app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="32dp"/>
+    <CheckBox
+            android:text="@string/always_on_display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/always_on_check_box"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" android:layout_marginEnd="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/time_text_view"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

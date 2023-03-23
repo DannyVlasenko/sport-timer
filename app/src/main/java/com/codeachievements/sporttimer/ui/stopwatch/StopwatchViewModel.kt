@@ -31,10 +31,10 @@ class MillisecondTimer {
     }
 
     fun stop(){
-        _stopTime = _time.value?:0uL
-        _isActive.value = false
         _timer?.cancel()
         _timer = null
+        _stopTime = _time.value?:0uL
+        _isActive.value = false
     }
 
     fun reset(){
